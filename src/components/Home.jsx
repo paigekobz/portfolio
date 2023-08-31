@@ -5,12 +5,13 @@ function Home() {
   return (
     <div className="home">
       <div class="container">
-        <div class="row align-items-center my-5">
+        <div class="row d-flex align-items-center my-5">
           <div class="col-lg-7">
-          <img class="media-object" src="{require('./home2.png')} " alt="..." />
+          <img src={require('../images/home2.png')} alt="..."  />
            
           </div>
-          <div class="col-lg-5">
+          
+            <div class="col-lg-5 bg-white " style={{backgroundColor: "white", padding: "15px", borderRadius:"5px", boxShadow: "5px 5px 5px #888" }}>
             <h1 class="font-weight-light">Hi, I'm Paige!</h1>
             <p>
             I’m a 3rd year engineering student at the University of Waterloo studying Systems Design Engineering.
@@ -19,6 +20,7 @@ function Home() {
             
         
             </p>
+            <button type="button" class="btn btn-primary">Download Resume</button>
           </div>
         </div>
       </div>
