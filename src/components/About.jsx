@@ -7,8 +7,7 @@ function About() {
         <div class="row align-items-center d-flex my-5">
           <div class="col-lg-7">
             <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+               src={require('../images/me.png')}
               alt=""
             />
           </div>
@@ -42,7 +41,7 @@ function About() {
               </div>
               <div class="col-lg-7">
             <img
-              src={require('../images/cvml1.png')}
+              src={require('../images/cvml700.png')}
               alt=""
             />
             </div>
@@ -91,7 +90,7 @@ I have also taken on projects to promote social causes I care about such as: des
           </div>
           <div class="col-lg-7">
             <img
-              src={require('../images/wheelchair.png')}
+              src={require('../images/wheel2.png')}
               alt=""
             />
             </div>

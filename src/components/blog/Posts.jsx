@@ -5,10 +5,10 @@ function Posts() {
   return (
     <div className="home">
       <div class="container">
-        <div class="row d-flex align-items-center my-5">
+        <div class="row align-items-center my-5">
           
           
-            <div class="col-lg-5 bg-white " style={{backgroundColor: "white", padding: "15px", borderRadius:"5px", boxShadow: "5px 5px 5px #888" }}>
+            <div class="col-lg-5 bg-white " style={{backgroundColor: "white", padding: "15px", borderRadius:"5px", boxShadow: "0 0 5px" }}>
             <h1 class="font-weight-light">Fastener Detection</h1>
             <p>
             At my most recent co-op at Martinrea International, 
@@ -23,9 +23,34 @@ function Posts() {
             </Link>
           </div>
           <div class="col-lg-7">
-          <img src={require("../../images/fastenercover.png")} alt="..."  />
+          <img src={require("../../images/fastener700.png")} alt="..."  />
            
           </div>
+        </div>
+        <div class="row align-items-center my-5">
+          
+        <div class="col-lg-7">
+          <img src={require("../../images/wheel2.png")} alt="..."  />
+           
+          </div>
+            <div class="col-lg-5 bg-white " style={{backgroundColor: "white", padding: "15px", borderRadius:"5px", boxShadow: "0 0 5px" }}>
+            <h1 class="font-weight-light">Solar Shade</h1>
+            <p>
+            Through this project for my Uwaterloo design course, 
+            I learned the fundamentals of solar power collection, 
+            arduino programming, and electro-mechanical design. 
+            We were prompted to design a product that would harness solar energy, 
+            and use it to power a motor. This solar shade prototype, made for wheelchair users,
+             measures sunlight intensity, and automatically re-orients itself to shade the user 
+             from the area with the greatest sunlight. 
+
+        
+            </p>
+            <Link to="/blog/this-is-a-post-title">
+            <button type="button" class="btn btn-primary">Learn More</button>
+            </Link>
+          </div>
+          
         </div>
       </div>
     </div>

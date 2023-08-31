@@ -1,9 +1,49 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
+
+const AnimatedText = ({ text }) => {
+  const [displayText, setDisplayText] = useState('');
+  const typingSpeed = 100; // Adjust the typing speed as needed
+
+  useEffect(() => {
+    let currentIndex = 0;
+    let timeout;
+
+    const typeText = () => {
+      if (currentIndex < text.length) {
+        setDisplayText(prevText => prevText + text[currentIndex]);
+        currentIndex++;
+        timeout = setTimeout(typeText, typingSpeed);
+      } else {
+        clearTimeout(timeout);
+      }
+    };
+
+    typeText();
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [text]);
+
+  return (
+    <div style={{ textAlign: 'center', fontSize: '24px' }}>
+      <p>{displayText}</p>
+    </div>
+  );
+};
+
+
+
+
 
 function Contact() {
   return (
     <div className="contact">
       <div class="container">
+
+      <AnimatedText text="Nice to meet you! Let's keep in touch" />
+
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
