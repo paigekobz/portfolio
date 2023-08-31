@@ -4,14 +4,14 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand " style={{backgroundColor:"01DD9E"}}>
+      <nav className="navbar navbar-expand " >
         <div className="container">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/" >
             Paige's Personal Portfolio
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              <li className="nav-item" style={{color:"#01DD9E"}}>
                 <NavLink className="nav-link" to="/">
                   Home
                   <span className="sr-only">(current)</span>
