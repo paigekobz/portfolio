@@ -12,6 +12,8 @@ import {
   Blog,
   Posts,
   Post,
+  Movegreen, 
+  Solarshade
 } from "./components";
 
 ReactDOM.render(
@@ -24,6 +26,8 @@ ReactDOM.render(
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
+        <Route path=":movegreen" element={<Movegreen />} />
+        <Route path=":solarshade" element={<Solarshade />} />
       </Route>
     </Routes>
     <Footer />

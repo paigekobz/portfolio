@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-
-
 const AnimatedText = ({ text }) => {
   const [displayText, setDisplayText] = useState('');
   const typingSpeed = 100; // Adjust the typing speed as needed
@@ -46,20 +44,31 @@ function Contact() {
 
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
+            <img src={require('../images/pretty.png')} alt="..."  />
+           
+            
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5"  style={{backgroundColor: "white", padding: "15px", borderRadius:"5px", boxShadow: "5px 5px 5px #888" }}>
             <h1 class="font-weight-light">Contact</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Hi! Feel free to email me at <a href="mailto:pkobzar@uwaterloo.ca" style={{paddingRight: "5px"}}>pkobzar@uwaterloo.ca</a>
+              or visit my Linkedin and Github pages
             </p>
+            <a href="mailto:pkobzar@uwaterloo.ca" without rel="noopener noreferrer" target="_blank">
+                  <button type="button" class="btn btn-primary" >
+                  Send an email
+                  </button>
+              </a>
+              <a href="https://www.linkedin.com/in/paige-kobzar/" without rel="noopener noreferrer" target="_blank" style={{paddingLeft: "5px"}}>
+                  <button type="button" class="btn btn-primary" >
+                  Visit Linkedin
+                  </button>
+              </a>
+              <a href="https://github.com/paigekobz" without rel="noopener noreferrer" target="_blank" style={{paddingLeft: "5px"}}>
+                  <button type="button" class="btn btn-primary">
+                  Visit Github
+                  </button>
+              </a>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from '../images/PaigeKobzar2024Winter.pdf';
+import Pdf from '../images/2024 Winter Paige Kobzar Resume.pdf';
 
 function Home() {
   return (
@@ -22,7 +22,7 @@ function Home() {
             </p>
             
 
-              <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+              <a href={Pdf}  target="_blank"download>
                   <button type="button" class="btn btn-primary">
                   Download Resume
                   </button>

@@ -18,7 +18,7 @@ function Posts() {
         
         
             </p>
-            <Link to="/blog/this-is-a-post-title">
+            <Link to="/blog/fastener-detection">
             <button type="button" class="btn btn-primary">Learn More</button>
             </Link>
           </div>
@@ -46,11 +46,29 @@ function Posts() {
 
         
             </p>
-            <Link to="/blog/this-is-a-post-title">
+            <Link to="/blog/solarshade">
             <button type="button" class="btn btn-primary">Learn More</button>
             </Link>
           </div>
+          <div class="row align-items-center my-5">
           
+        <div class="col-lg-7">
+          <img src={require("../../images/Frame 1.png")} alt="..."  />
+           
+          </div>
+            <div class="col-lg-5 bg-white " style={{backgroundColor: "white", padding: "15px", borderRadius:"5px", boxShadow: "0 0 5px" }}>
+            <h1 class="font-weight-light">Movegreen</h1>
+            <p>
+            An app that allows people to connect with others 
+            while being conscious of their own carbon 
+            footprint to reduce air pollution and climate change.
+        
+            </p>
+            <Link to="/blog/movegreen">
+            <button type="button" class="btn btn-primary">Learn More</button>
+            </Link>
+          </div>
+          </div>
         </div>
       </div>
     </div>
