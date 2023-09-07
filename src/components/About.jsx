@@ -1,4 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 
 function About() {
   return (
@@ -14,9 +16,12 @@ function About() {
           <div class="col-lg-5 bg-white " style={{backgroundColor: "white", padding: "15px", borderRadius:"5px", boxShadow: "0 0 5px #888" }}>
           <h1 class="font-weight-light">About Me</h1>
             <p>
-            I have experience in computer vision software development from a previous co-op position (click here to learn more),
-             and some personal projects (here). 
-             In my classes at UW, I learn how to solve problems using a holistic systems perspective,
+            I have experience in computer vision software development from a previous co-op position,
+             and from my university classes. 
+             In 
+             <a href="https://uwaterloo.ca/systems-design-engineering/about-department-systems-design-engineering/what-systems-design-engineering" style={{paddingLeft: "5px"}}>
+             Systems Design Engineering
+          </a> at UW, I learn how to solve problems using a holistic systems perspective,
               and how to design solutions through an iterative design process.
             </p>
           </div>
@@ -29,14 +34,16 @@ function About() {
               I was working as a UI/UX designer on a team of students developing automation devices for the factory. 
               I got to work alongside students developing an autonomous vehicle for material movement, and vision applications to automate quality inspection processes.
                I found an immediate interest and decided to take a second co-op term at the same plant; this time to work on the development side.
-                I got to work on an individual project to automate detection of fasteners. 
-              See project link here (link this to Fastener Detection Project).</p>
+                I got to work on an individual project to automate 
+                <NavLink to="/contact" style={{paddingLeft: "5px"}}>
+            detection of fasteners
+          </NavLink>. 
+              </p>
               <p>
               After this experience, I have gone out of my way to learn as much as I can about computer vision, 
               image processing, and machine learning. This has included taking  classes such as: Image Processing, 
-              Data Structures and Algorithms, and pursuing individual projects and research. 
-              Link here to Computer Vision tagged projects
-
+              Data Structures and Algorithms, and pursuing individual research. 
+              
               </p>
               </div>
               <div class="col-lg-7">
@@ -65,8 +72,10 @@ function About() {
                 and technology impact the environment in various ways. This has been achieved by taking classes such as Design, Systems, and Society, and Sustainability: The Future We Want, 
                 as well as
                 doing self-initiated research. Additionally, I have taken on projects that have demonstrated this interest such as: 
-                designing a user interface for an eco-friendly travel app, 
-                and developing a plan to phase-out the use of single-use plastics in the city of North Vancouver.
+                designing a user interface for an 
+                <NavLink to="/contact" style={{paddingLeft: "5px"}}>
+                eco-friendly travel app
+          </NavLink>.
                 </p>
           </div>
           
@@ -85,7 +94,10 @@ function About() {
 Additionally, during my exchange at Nanyang Technological University in Singapore, I have been provided with an opportunity to develop a global perspective. 
 Learning about new technology popularized on the other side of the planet has inspired me even further to design equitable tech.
 I have also taken on projects to promote social causes I care about such as: designing a social media user interface to connect people with charities and nonprofit organizations that match their goals,
- and designing a self-adjusting solar powered sun shade for wheelchair users.
+ and designing a 
+ <NavLink to="/contact" style={{paddingLeft: "5px"}}>
+ self-adjusting solar powered sun shade for wheelchair users
+          </NavLink>.
  </p>
           </div>
           <div class="col-lg-7">

@@ -1,13 +1,9 @@
-import React, { useEffect } from "react";
-import { useParams } from "react-router";
+import React from "react";
+
 import { NavLink } from "react-router-dom";
 
-function Movegreen() {
-  let { postSlug } = "movegreen";
 
-  useEffect(() => {
-    // Fetch post using the postSlug
-  }, [postSlug]);
+function Movegreen() {
 
   return (
     <div className="home">
@@ -20,6 +16,8 @@ function Movegreen() {
           without contributing a carbon footprint.
 
         </p>
+        <img src={require('../images/frame 1.png')} alt="..."  style={{paddingBottom: "10px"}}/>
+         
         <p>
         UI/UX Designer is a position I had at two of my co-op placements as well. From learning 
         UI/UX design as well as UX research I feel I have developed many transferable skills that 
@@ -27,15 +25,16 @@ function Movegreen() {
          </p>
 
          <p>
-            Anytime I work on a project, I have learned to put myself in the shoes of the final user. 
+            Anytime I work on a product, I have learned to put myself in the shoes of the final user. 
             I have learned to conduct thorough research and develop a list of requirements and constraints. 
             In UI/UX, I have learned the importance of clearly communicating my ideas and motivations. 
             As UX design is a very iterative process, I have lots of practice immediately applying feedback 
             to new iterations.
          </p>
+         
 
         <p>
-          Embedded below is a prototype of the app designed by my team and I.
+          Below is a link to the prototype of the app designed by my team and I.
         </p>
         <div>
           <p>
@@ -44,18 +43,30 @@ function Movegreen() {
             contact me!
           </NavLink>
           </p>
-          
+          <div class="row d-flex align-items-top my-5">
+          <div class="col-lg-5">
+          <a href="https://www.figma.com/proto/jKv3FbadApUCeqnFaKk1Nq/HackAttack-2020?type=design&node-id=1-4&t=hL5eVX6vEUqxlteb-1&scaling=scale-down&page-id=0%3A1&mode=design"  target="_blank"preview>
+                  <button type="button" class="btn btn-primary" style={{paddingBottom: "10px"}}>
+                  View Prototype
+                  </button>
+              </a>
+
+          </div>
+         
+         <div class="col-lg-7">
+         <img src={require('../images/image 3.png')} alt="..."  style={{paddingBottom: "10px"}}/>
+         
          </div>
-         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" 
-        width="800" height="450" 
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjKv3FbadApUCeqnFaKk1Nq%2FHackAttack-2020%3Ftype%3Ddesign%26mode%3Ddesign%26t%3Dsj27WHIJ8WINDPfW-1" 
-        allowfullscreen></iframe>
+         </div>
+
+         </div>
+        
         </div>
         
        
       </div>
     
-  );
+    );
 }
 
 export default Movegreen;

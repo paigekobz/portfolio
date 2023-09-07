@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { NavLink } from "react-router-dom";
 
 function Post() {
-  let { postSlug } = "fastener-detection";
+  let { postSlug } = useParams();
 
   useEffect(() => {
     // Fetch post using the postSlug
@@ -17,7 +17,7 @@ function Post() {
         At my most recent co-op at Martinrea International, 
         I got the opportunity to champion a computer vision project for a very specific purpose- 
         Identifying Fasteners. 
-        Through this journey I learned the fundamentals of object detection, data collection, and implementing a product in an industrial setting. 
+        Through this journey I learned the fundamentals of object detection, computer vision, machine learning, data collection, and implementing a product in an industrial setting. 
         </p>
 
         <p>

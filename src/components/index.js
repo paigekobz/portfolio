@@ -6,5 +6,5 @@ export { default as Contact } from "./Contact";
 export { default as Blog } from "./blog/Blog";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
-export { default as Movegreen } from "./blog/movegreen";
-export { default as Solarshade } from "./blog/solarshade";
+export { default as Movegreen } from "./movegreen";
+export { default as Solarshade } from "./solarshade";

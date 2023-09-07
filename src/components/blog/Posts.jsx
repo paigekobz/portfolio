@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Posts() {
   return (
@@ -46,9 +46,9 @@ function Posts() {
 
         
             </p>
-            <Link to="/blog/solarshade">
+            <NavLink to="../solarshade">
             <button type="button" class="btn btn-primary">Learn More</button>
-            </Link>
+            </NavLink>
           </div>
           <div class="row align-items-center my-5">
           
@@ -64,9 +64,9 @@ function Posts() {
             footprint to reduce air pollution and climate change.
         
             </p>
-            <Link to="/blog/movegreen">
+            <NavLink to="../movegreen">
             <button type="button" class="btn btn-primary">Learn More</button>
-            </Link>
+            </NavLink>
           </div>
           </div>
         </div>

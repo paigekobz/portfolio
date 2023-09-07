@@ -23,11 +23,12 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/movegreen" element={<Movegreen />} />
+      <Route path="/solarshade" element={<Solarshade />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
-        <Route path=":movegreen" element={<Movegreen />} />
-        <Route path=":solarshade" element={<Solarshade />} />
+      
       </Route>
     </Routes>
     <Footer />
