@@ -71,7 +71,7 @@ function About() {
                 Since getting to university, I have taken the time to learn how different systems, including energy, transportation, 
                 and technology impact the environment in various ways. This has been achieved by taking classes such as Design, Systems, and Society, and Sustainability: The Future We Want, 
                 as well as
-                doing self-initiated research. Additionally, I have taken on projects that have demonstrated this interest such as: 
+                doing self-initiated research. Additionally, I have taken on projects that have demonstrated this interest including: 
                 designing a user interface for an 
                 <NavLink to="/contact" style={{paddingLeft: "5px"}}>
                 eco-friendly travel app
