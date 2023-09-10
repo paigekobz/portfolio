@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolio/static/js/main.22aa4187.js",
+    "static/media/SolarshadeConclusions.pdf": "/portfolio/static/media/SolarshadeConclusions.4288742ce7df0e890848.pdf",
+    "static/media/home2.png": "/portfolio/static/media/home2.8f3b3fabdf83936ecc7a.png",
+    "static/media/enviro1.png": "/portfolio/static/media/enviro1.842f7ccf2bec12baacae.png",
+    "static/media/fastener700.png": "/portfolio/static/media/fastener700.eddb9dd018ef891d9d5a.png",
+    "static/media/cvml700.png": "/portfolio/static/media/cvml700.ae03d75f82f17183caa7.png",
+    "static/media/wheel2.png": "/portfolio/static/media/wheel2.d5ec70a02a21f17db3d1.png",
+    "static/media/pretty.png": "/portfolio/static/media/pretty.5a3ed8755e295ae94744.png",
+    "static/media/me.png": "/portfolio/static/media/me.6dc1bbf9900605b47cb9.png",
+    "static/media/image 6.png": "/portfolio/static/media/image 6.ddcc1b3ac260efbc8a0a.png",
+    "static/media/image 5.png": "/portfolio/static/media/image 5.610a475ab6a611e77c8e.png",
+    "static/media/Frame 1.png": "/portfolio/static/media/Frame 1.aa2226e596ea1c04443f.png",
+    "static/media/frame 1.png": "/portfolio/static/media/frame 1.aa2226e596ea1c04443f.png",
+    "static/media/2024 Winter Paige Kobzar Resume.pdf": "/portfolio/static/media/2024 Winter Paige Kobzar Resume.c56d3b5aa7129d7bbc22.pdf",
+    "static/media/image 3.png": "/portfolio/static/media/image 3.f79fe9035be36e59d784.png",
+    "static/media/image 4.png": "/portfolio/static/media/image 4.96b49a19a3861f26b5fe.png",
+    "index.html": "/portfolio/index.html",
+    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
+    "main.22aa4187.js.map": "/portfolio/static/js/main.22aa4187.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.22aa4187.js"
+  ]
+}
