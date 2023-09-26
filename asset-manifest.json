@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.22aa4187.js",
+    "main.js": "/portfolio/static/js/main.3155983e.js",
     "static/media/SolarshadeConclusions.pdf": "/portfolio/static/media/SolarshadeConclusions.4288742ce7df0e890848.pdf",
     "static/media/home2.png": "/portfolio/static/media/home2.8f3b3fabdf83936ecc7a.png",
     "static/media/enviro1.png": "/portfolio/static/media/enviro1.842f7ccf2bec12baacae.png",
@@ -19,10 +19,10 @@
     "static/media/image 4.png": "/portfolio/static/media/image 4.96b49a19a3861f26b5fe.png",
     "index.html": "/portfolio/index.html",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.22aa4187.js.map": "/portfolio/static/js/main.22aa4187.js.map"
+    "main.3155983e.js.map": "/portfolio/static/js/main.3155983e.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.22aa4187.js"
+    "static/js/main.3155983e.js"
   ]
 }
